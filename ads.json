@@ -1,0 +1,14 @@
+[
+    {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_Eb8v2WqImiK7wYI6I1Hc-1-1s3oa5Ds8A&s",
+        "clickSrc": "https://example.com/landing1"
+    },
+    {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22C8ItF9XxvI4sTssUUZbJdDvJ0RnHaLlUg&s",
+        "clickSrc": "https://example.com/landing2"
+    },
+    {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfOv7TVU0rzCsP1J9VYCMFUjPNTkdrwdA-w&s",
+        "clickSrc": "https://example.com/landing3"
+    }
+]

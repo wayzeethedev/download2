@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     let movieData = [];
 
     try {
-        const response = await fetch('/external/data.json');
+        const response = await fetch('https://downloadbe.pages.dev/data.json');
         movieData = await response.json();
         localStorage.setItem("movieData", JSON.stringify(movieData));
 
@@ -131,7 +131,7 @@ function selectMovie(index) {
         let contentData = [];
 
         try {
-            const response = await fetch('/external/data.json');
+            const response = await fetch('https://downloadbe.pages.dev/data.json');
             contentData = await response.json();
             localStorage.setItem("contentData", JSON.stringify(contentData));
 
@@ -405,7 +405,7 @@ const defaultAdLink = document.getElementById("default-ad-link");
 // Fetch the JSON file containing the default images
 async function fetchDefaultImages() {
     try {
-        const response = await fetch("/external/ads.json"); // Path to your JSON file
+        const response = await fetch("https://downloadbe.pages.dev/ads.json"); // Path to your JSON file
         const defaultImages = await response.json();
         return defaultImages;
     } catch (error) {
@@ -453,7 +453,7 @@ const generateButton = document.getElementById("generate-proxy");
 // Fetch proxies from the JSON file
 async function fetchProxies() {
     try {
-        const response = await fetch("/external/proxies-1-28.json");
+        const response = await fetch("https://downloadbe.pages.dev/prox135.json");
         const proxies = await response.json();
         return proxies;
     } catch (error) {
